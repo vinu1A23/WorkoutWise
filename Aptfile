@@ -1,4 +1,8 @@
-libsm6
-libxrender1
-libfontconfig1
-libice6
+libopencv-core-dev 
+libopencv-highgui-dev 
+libopencv-calib3d-dev 
+libopencv-features2d-dev 
+libopencv-imgproc-dev 
+libopencv-video-dev
+libopencv-contrib-dev
+sudo
