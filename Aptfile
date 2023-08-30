@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 libopencv-core-dev 
 libopencv-highgui-dev 
 libopencv-calib3d-dev 
@@ -7,12 +6,4 @@ libopencv-imgproc-dev
 libopencv-video-dev
 libopencv-contrib-dev
 sudo
-=======
-libsm6
-libxrender1
-libfontconfig1
-libice6
-ffmpeg 
-libsm6 
-libxext6
->>>>>>> 39a8b196053c47ee5f01c7aa08a0fd2999809cfa
+
