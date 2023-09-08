@@ -11,7 +11,7 @@ import time
 import math
 class poseDetector():
     def __init__(self, mode=False, upBody=False, smooth=True,
-                 detectionCon=True, trackCon=True,debugger=False):  ##detectionCon ,, trackCon
+                 detectionCon=0.5, trackCon=0.5,debugger=False):  ##detectionCon ,, trackCon
         self.mode=mode
         self.upBody=upBody
         self.smooth= smooth
