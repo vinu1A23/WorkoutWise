@@ -38,7 +38,7 @@ class select():
             print("Can't receive frame (stream end?). Exiting ...")
             break
         """
-        img= cv2.resize(frame,(1580,900))
+        img= cv2.resize(frame,(1580,900))       #originally for video so rezized video when larger video size
         #img= cv2.imread("img/test.jpg")
 
 
