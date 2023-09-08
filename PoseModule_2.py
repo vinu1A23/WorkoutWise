@@ -31,7 +31,7 @@ class poseDetector():
         return img , self.results.pose_landmarks
     def findPosition (self, img, draw=False) :
         self.lmList=[]
-        if self.results.pose_landmarks :
+        if self.results.pose_landmarks : #self.results.pose_landmarks contains x,y,z,visibility and presence
             for id, lm in enumerate (self. results . pose_landmarks. landmark):
                 h, w, c= img.shape
                 cx,cy=int(lm.x*w), int(lm.y*h)
