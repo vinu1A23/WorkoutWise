@@ -46,8 +46,8 @@ class select():
         #print(result.pose_landmarks.visibility)
         
         # Our operations on the frame come here
-        lmList=self.detector.findPosition(img,False)
-        #gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        lmList=self.detector.findPosition(img,False)          #second parameter is for drawing joints and skeleton
+        #gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)         
 
         if len(lmList)!=0:
             """print("hip : ",self.c(24))
