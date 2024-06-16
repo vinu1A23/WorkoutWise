@@ -1,1 +1,1 @@
-[click here](./templates/index.html)
+[click here](../templates/index.html)
